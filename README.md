@@ -74,10 +74,11 @@ To experience the full capabilities of the YOLOv8 Traffic Density Estimation pro
 
 ### 1️⃣. Initial Setup
 1. **Clone the Repository**: Start by cloning the project repository to your local system using the command below:
-    ```bash
+
+   ```bash
     git clone https://github.com/Gauss243J/real-time-traffic-density.git
     ```
-2. **Navigate to the Project Directory**: After cloning, change into the project directory with:
+3. **Navigate to the Project Directory**: After cloning, change into the project directory with:
     ```bash
     cd YOLOv8_Traffic_Density_Estimation
     ```
