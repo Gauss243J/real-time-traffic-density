@@ -100,16 +100,16 @@ Witness the real-time traffic analysis capability of our YOLOv8 model:
 2. **Run the Analysis Script**: Execute the script to start the real-time traffic density estimation:
 ## 🚀 How to Run Each Part of the Project (Bash Commands)
 
-### 1️⃣ Run Initial Baseline Code
+### 1️⃣ Run Initial Baseline Code:
     ```bash
     python real_time_traffic_analysis_initial.py
     ```
-### 2️⃣ Run Minor Changes 
+### 2️⃣ Run Minor Changes :
     ```bash
     python real_time_traffic_analysis_minorchanges.py
     ```
 
-### 3️⃣ Run Complex Version
+### 3️⃣ Run Complex Version:
     ```bash
     python real_time_traffic_analysis.py
     ```
