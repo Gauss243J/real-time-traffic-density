@@ -122,6 +122,8 @@ This GIF showcases our algorithm running in real-time:
 
 ![Real-Time Traffic Analysis GIF](Running_Real-Time_Traffic_Analysis.gif) 
 ![Recording-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f1663646-7704-4f6c-b2e2-08c874dd456b)
+![trim-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/ee749c4e-6f3e-403f-899d-672b706c5965)
+
 
 
 
