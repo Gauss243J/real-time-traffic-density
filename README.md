@@ -121,7 +121,8 @@ Witness the real-time traffic analysis capability of our YOLOv8 model:
 This GIF showcases our algorithm running in real-time:
 
 ![Real-Time Traffic Analysis GIF](Running_Real-Time_Traffic_Analysis.gif) 
-![image](https://github.com/user-attachments/assets/a38184ee-0dac-4a3a-b9d5-7861b69e6aa6)
+![Recording-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f1663646-7704-4f6c-b2e2-08c874dd456b)
+
 
 
 
