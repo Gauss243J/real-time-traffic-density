@@ -52,22 +52,20 @@ The dataset is publicly available on Roboflow and Kaggle:
 - Kaggle Dataset: [Top-View Vehicle Detection Image Dataset](https://www.kaggle.com/datasets/farzadnekouei/top-view-vehicle-detection-image-dataset)
 
 
-## 🎥 YouTube Demo
-Real-Time Traffic Density Estimation with YOLOv8 in Action:
-
-[![Traffic Density Estimation Demo](https://img.youtube.com/vi/5SxQfWLENh8/0.jpg)](https://youtu.be/5SxQfWLENh8)
-
-
 ## 📁 File Descriptions
 
-- **`images/`**: This directory houses the cover images for the project and the sample image utilized within the notebook.
-- **`models/`**: Contains the best-performing fine-tuned YOLOv8 model in both `.pt` (PyTorch format) and `.onnx` (Open Neural Network Exchange format) for broad compatibility.
-- **`LICENSE`**: The legal framework defining the terms under which this project's code and dataset can be used.
-- **`README.md`**: The document you are reading that offers an insightful overview and essential information about the project.
-- **`real_time_traffic_analysis.py`**: The Python script for deploying the YOLOv8 model to estimate traffic density in real-time on a local system.
-- **`real-time_traffic_density_estimation_yolov8.ipynb`**: The Jupyter notebook that documents the model development pipeline, from data preparation to model evaluation and inference.
-- **`Running_Real-Time_Traffic_Analysis.gif`**: A GIF demonstration showing the real-time traffic analysis capability of our model when the `real_time_traffic_analysis.py` script is executed.
-- **`sample_video.mp4`**: The video file used for testing the traffic estimation algorithm and the deployment code in `real_time_traffic_analysis.py`.
+- **images/**: Directory containing cover images and sample images used in notebooks and demos.  
+- **models/**: Contains the fine-tuned YOLOv8 models in `.pt` (PyTorch) and `.onnx` formats for compatibility.  
+- **LICENSE**: Legal document describing usage rights and limitations of the project.  
+- **README.md**: Overview and essential project information.  
+- **real_time_traffic_analysis.py**: Main Python script running the complete complex traffic analysis including detection, motion filtering, speed estimation, and color classification.  
+- **real_time_traffic_analysis_minorchanges.py**: Python script variant with intermediate code changes and improvements over initial version.  
+- **real_time_traffic_analysis_initial.py**: Initial baseline code performing basic vehicle detection and lane counting.  
+- **motion_utils.py**: Helper Python file with functions for motion detection and filtering.  
+- **sample_video.mp4**: Sample input video file used for testing and demonstration.  
+- **real-time_traffic_density_estimation_yolov8.ipynb**: Jupyter notebook documenting the model training and evaluation pipeline.  
+- **Running_Real-Time_Traffic_Analysis.gif**: Animated GIF showing real-time analysis in action.
+
 
 
 ## 🚀 Instructions for Local Execution
@@ -77,7 +75,7 @@ To experience the full capabilities of the YOLOv8 Traffic Density Estimation pro
 ### 1️⃣. Initial Setup
 1. **Clone the Repository**: Start by cloning the project repository to your local system using the command below:
     ```bash
-    git clone https://github.com/FarzadNekouee/YOLOv8_Traffic_Density_Estimation.git
+    git clone https://github.com/Gauss243J/real-time-traffic-density.git
     ```
 2. **Navigate to the Project Directory**: After cloning, change into the project directory with:
     ```bash
@@ -99,10 +97,24 @@ Witness the real-time traffic analysis capability of our YOLOv8 model:
     pip install ultralytics
     ```
 2. **Run the Analysis Script**: Execute the script to start the real-time traffic density estimation:
+## 🚀 How to Run Each Part of the Project (Bash Commands)
+
+### 1️⃣ Run Initial Baseline Code
+    ```bash
+    python real_time_traffic_analysis_initial.py
+    ```
+### 2️⃣ Run Minor Changes 
+    ```bash
+    python real_time_traffic_analysis_minorchanges.py
+    ```
+
+### 3️⃣ Run Complex Version
     ```bash
     python real_time_traffic_analysis.py
     ```
-3. **Real-Time Analysis**: The video window will display the live traffic analysis. To exit, simply press 'q' while the video window is active.
+
+
+4. **Real-Time Analysis**: The video window will display the live traffic analysis. To exit, simply press 'q' while the video window is active.
 
 This GIF showcases our algorithm running in real-time:
 
