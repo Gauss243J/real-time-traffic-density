@@ -101,18 +101,19 @@ Witness the real-time traffic analysis capability of our YOLOv8 model:
 ## 🚀 How to Run Each Part of the Project (Bash Commands)
 
 ### 1️⃣ Run Initial Baseline Code:
-    ```bash
-    python real_time_traffic_analysis_initial.py
-    ```
+
+   ```bash
+   python real_time_traffic_analysis_initial.py
+   ```
 ### 2️⃣ Run Minor Changes :
-    ```bash
-    python real_time_traffic_analysis_minorchanges.py
-    ```
+   ```bash
+   python real_time_traffic_analysis_minorchanges.py
+   ```
 
 ### 3️⃣ Run Complex Version:
-    ```bash
-    python real_time_traffic_analysis.py
-    ```
+   ```bash
+   python real_time_traffic_analysis.py
+   ```
 
 
 4. **Real-Time Analysis**: The video window will display the live traffic analysis. To exit, simply press 'q' while the video window is active.
